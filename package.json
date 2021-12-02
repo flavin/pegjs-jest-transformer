@@ -13,7 +13,7 @@
   ],
   "author": "francisco lavin",
   "license": "MIT",
-  "devDependencies":{
+  "devDependencies": {
     "jest": "^27.4.3"
   },
   "dependencies": {
