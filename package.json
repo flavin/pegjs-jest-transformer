@@ -1,0 +1,22 @@
+{
+  "name": "pegjs-jest-transformer",
+  "version": "1.0.0",
+  "description": "Pegjs transformer for jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "transformer",
+    "pegjs"
+  ],
+  "author": "francisco lavin",
+  "license": "MIT",
+  "devDependencies":{
+    "jest": "^27.4.3"
+  },
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  }
+}
