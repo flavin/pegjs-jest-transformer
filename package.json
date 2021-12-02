@@ -1,6 +1,6 @@
 {
   "name": "pegjs-jest-transformer",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Pegjs transformer for jest",
   "main": "dist/index.js",
   "scripts": {
@@ -16,13 +16,13 @@
   "license": "MIT",
   "devDependencies": {
     "@jest/transform": "^27.4.2",
-    "@types/jest": "^27.0.3",
-    "jest": "^27.4.3"
+    "@types/jest": "^27.0.3"
   },
   "dependencies": {
     "typescript": ">=3.8 <5.0"
   },
   "peerDependencies": {
+    "jest": "^27.4.3",
     "pegjs": "^0.10.0"
   }
 }
