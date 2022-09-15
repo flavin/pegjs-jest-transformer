@@ -21,8 +21,10 @@ export class PegJestTransformer implements SyncTransformer {
     filePath: Config.Path,
     transformOptions: TransformOptions
   ) {
-    return `module.exports = ${peg.generate(fileContent, {
-      output: "source",
-    })}`;
+    return {
+      code: `module.exports = ${peg.generate(fileContent, {
+        output: "source",
+      })}`,
+    };
   }
 }
