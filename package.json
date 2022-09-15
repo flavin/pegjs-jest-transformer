@@ -15,8 +15,8 @@
   "author": "francisco lavin",
   "license": "MIT",
   "devDependencies": {
-    "@jest/transform": "^27.4.2",
-    "@types/jest": "^27.0.3"
+    "@jest/transform": "^28.1.0",
+    "@types/jest": "^28.1.0"
   },
   "dependencies": {
     "typescript": ">=3.8 <5.0"
