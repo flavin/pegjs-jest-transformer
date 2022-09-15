@@ -1,12 +1,11 @@
 import type { SyncTransformer, TransformOptions } from "@jest/transform";
-import type { Config } from "@jest/types";
 import * as crypto from "crypto";
 import * as peg from "pegjs";
 
 export class PegJestTransformer implements SyncTransformer {
   getCacheKey(
     fileContent: string,
-    filePath: Config.Path,
+    filePath: string,
     transformOptions: TransformOptions
   ) {
     return crypto
@@ -18,7 +17,7 @@ export class PegJestTransformer implements SyncTransformer {
 
   process(
     fileContent: string,
-    filePath: Config.Path,
+    filePath: string,
     transformOptions: TransformOptions
   ) {
     return {
